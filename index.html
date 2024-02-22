@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>حضور و غياب</title>
+    <link rel="icon" href="download.jpeg" type="image/jpeg">
+</head>
+<body>
+    <div class="container">
+        <h1>كشافة و مرشدات قلب يسوع الأقدس</h1>
+        <div>
+            <label for="usernameInput" >Enter Name:</label>
+            <input type="text" id="usernameInput" required>
+            <button onclick="saveUsername()">Save</button>
+        </div>
+        <ul id="usernameList"></ul>
+        <button onclick="downloadExcel()">Download Excel</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
